@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>加入我们的微信群</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+    }
+    .qr-code {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+    .button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>加入我们的微信群</h1>
+    <p>扫描下方二维码，立即加入我们的微信群，获取更多福利！</p>
+    <img src="666.jpg" alt="微信群二维码" class="qr-code">
+    <button class="button" onclick="scanQRCode()">立即加入微信群</button>
+  </div>
+  <script>
+    function scanQRCode() {
+      alert('请使用微信扫描上方二维码加入群聊');
+    }
+  </script>
+</body>
+</html>
